@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 27vmin;
+  margin-top: 3px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App__Form {
+  
+  background-color: #2E4158;
+  padding: 10px 25px;
+  overflow: auto;
+}
+
+.PageSwitcher {
+  display: flex;
+  justify-content: center;
+}
+
+.PageSwitcher__Item {
+  background-color: rgb(230, 222, 118);
+  color: green;
+  padding: 10px 25px;
+  cursor: pointer;
+  font-size: .9em;
+  border: none;
+  outline: none;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.PageSwitcher__Item--Active {
+  background-color: #5ED0C0;
+  color: white;
+}
+
+.FormMain {
+  margin-bottom: 310px;
+  display: flex;
+}
+
+.JoinForm {
+  width: 400px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.FormField {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.FormField__Label {
+  font-size: .8em;
+  color: white;
+  display: inline-block;
+}
+
+.FormField__Input {
+  width: 65%;
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  border-bottom: 1px solid #445366;
+  font-size: 0.9em;
+  font-weight: 300;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.FormField__Input::placeholder {
+  color: #616E7F;
+
+}
+
+.FormField__Checkbox {
+  display: inline-block;
+  border-bottom: 1px solid #79e0d8;
+  padding-bottom: 2px;
+  font-size: 0.7em;
+  text-decoration: none;
+}
+
+.FormField__TermsLink {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid rgb(223, 212, 71);
+  display: inline;
+  padding-bottom: 2px;
+  font-size: 0.7em;
+  margin-left: 5px;
+}
+
+.FormField__Button {
+  background-color: #52C4B9;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  padding: 5px 25px;
+  font-size: .7em;
+  font-weight: 400;
+}
+
+.FormField__Link {
+  color: rgb(223, 212, 71);
+  display: inline-block;
+  border-bottom: 1.5px solid #225E62;
+  padding-bottom: 4px;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+
+.FormField__CheckLabel {
+  font-size: 0.7em;
+  color: white;
+}
+
+.FormField__CheckBox {
+  position: relative;
+  top: 2px;
+}
+
+
+
+/* .App-link {
+  color: #09d3ac;
+} */
